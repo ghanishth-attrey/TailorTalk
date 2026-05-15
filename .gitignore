@@ -1,0 +1,35 @@
+# Environment
+.env
+*.env
+.env.*
+!.env.example
+
+# Secrets
+service_account.json
+*credentials*.json
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
