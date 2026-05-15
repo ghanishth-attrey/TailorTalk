@@ -179,15 +179,17 @@ SUGGESTIONS = [
 
 WELCOME_MSG = (
     "👋 Hello! I'm **DriveBot**, your Google Drive assistant.\n\n"
-    "I can help you **search, filter, and discover files** in your Drive using natural language.\n\n"
+    "I'm connected to the following Google Drive folder:\n"
+    "📁 [TailorTalk Sample Drive](https://drive.google.com/drive/folders/1qkx58doSeYrcLjHPDysJyVJ36PsSqqlt)\n\n"
+    "I can help you **search, filter, and discover files** in this Drive using natural language.\n\n"
     "Try asking me:\n"
     "- *\"Find all PDF files\"*\n"
-    "- *\"Show me spreadsheets about budget\"*\n"
-    "- *\"Find documents containing the word invoice\"*\n"
-    "- *\"What files were modified last week?\"*\n\n"
+    "- *\"Show me all folders\"*\n"
+    "- *\"Find documents containing the word report\"*\n"
+    "- *\"What files were modified last week?\"*\n"
+    "- *\"Find all images\"*\n\n"
     "What are you looking for? 🗂️"
 )
-
 
 # ── API call ───────────────────────────────────────────────────────────────────
 def call_backend(user_msg: str) -> str:
